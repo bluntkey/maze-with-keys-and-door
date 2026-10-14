@@ -1,8 +1,8 @@
-# 🔑 Maze with Keys and Doors
+# Maze with Keys and Doors
 
 A shortest-path maze solver using **Breadth-First Search (BFS)**, where players must collect keys to unlock matching doors and reach the exit. The project includes a Python solver, random maze generation, CSV input/output, and an interactive animated visualization.
 
-## 📌 Problem Statement
+## Problem Statement
 
 Given an `N × N` grid, find the shortest path from the starting cell `S` to the exit `E`.
 
@@ -29,7 +29,7 @@ Movement is allowed in four directions: up, down, left, and right. Each move cos
 - `solved.csv` containing the shortest path marked with `x`.
 - An interactive visualization with animated key pickups, door unlocking, and an inventory panel.
 
-## 🧠 Algorithm: Breadth-First Search
+## Algorithm: Breadth-First Search
 
 ### Why BFS?
 
@@ -68,7 +68,7 @@ The key mask is a bitmask representing collected keys. With at most six key type
 
 For `N = 40` and `T = 6`, the maximum number of position-and-key states is `40 × 40 × 64 = 102,400`.
 
-## 🎲 Random Maze Generation
+## Random Maze Generation
 
 The generator:
 
@@ -78,7 +78,7 @@ The generator:
 4. Prefers mazes whose shortest route uses at least one door.
 5. Retries unsuccessful layouts and uses a fallback maze if necessary.
 
-## 🖼️ Maze Visualizations
+## Maze Visualizations
 
 ### 1. Input Maze
 
@@ -110,7 +110,7 @@ Watch the maze solution, including movement, key collection, and door unlocking.
 
 ![Maze Animation](images/animation.gif)
 
-## 📄 Example Solved Maze
+## Example Solved Maze
 
 For the example maze with `T = 3`, the expected shortest path length is **12**.
 
@@ -133,7 +133,7 @@ The resulting `solved.csv` marks ordinary path cells with `x`, while preserving 
 .,S,.,#,.,#,.,.,#,.,C,.
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 maze-with-keys-and-door/
@@ -151,7 +151,7 @@ maze-with-keys-and-door/
     └── animation.gif
 ```
 
-## 🚀 How to Run
+## How to Run
 
 ### Requirements
 
@@ -184,7 +184,7 @@ python make_images.py maze.csv
 2. Click **Load CSV** to load a maze or **Generate** to create a random maze.
 3. Click **Play** to watch the solution animation.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Python 3** — maze generation and shortest-path solver.
 - **Breadth-First Search (BFS)** — shortest-path algorithm.
@@ -193,7 +193,7 @@ python make_images.py maze.csv
 - **CSV** — maze input and solution output.
 - **Matplotlib and Pillow** — visualization image generation.
 
-## ✨ Key Features
+## Key Features
 
 - Shortest-path computation using BFS.
 - Multiple keys and matching locked doors.
@@ -204,8 +204,9 @@ python make_images.py maze.csv
 - Visual key collection and door unlocking.
 - Path reconstruction using parent states.
 
-## 👨‍💻 Author
-
+## Author
+1CR24CS164 - Saquib Eqbal
+1CR24CS158 - Saksham Abrol
 Created as a project demonstrating graph traversal, state-space search, bitmasking, and interactive visualization.
 
 ---
