@@ -208,7 +208,4 @@ python make_images.py maze.csv
 1CR24CS164 - Saquib Eqbal
 1CR24CS158 - Saksham Abrol
 Created as a project demonstrating graph traversal, state-space search, bitmasking, and interactive visualization.
-
----
-
-**If you found this project useful, consider giving the repository a ⭐!**
+-
